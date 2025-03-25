@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace _25_3
 {
-    public partial class Form2: Form
+    public partial class Form2 : Form
     {
         public Form2()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Console.writeline("Hello World");
         }
     }
 }
